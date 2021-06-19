@@ -3,9 +3,9 @@ package com.example.employeepayrollapp.dto;
 public class EmployeePayRollDTO {
 	public Long  salary;
 	public String name;
-	public EmployeePayRollDTO(Long salary, String name) {
+	public EmployeePayRollDTO(long i, String name) {
 		super();
-		this.salary = salary;
+		this.salary = i;
 		this.name = name;
 	}
 	
